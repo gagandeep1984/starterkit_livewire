@@ -1,6 +1,10 @@
 composer require livewire/livewire 	# installs livewire within laravel 
+manually create /resources/views/layouts/app.blade.php # for version 2 only 
 php artisan livewire:layout  		# with version 3 only 
-php artisan make:livewire counter 	# creates component and blade files 
+php artisan make:livewire counter 	# creates component and blade files
+
+* Since Livewire creates for the root layout file app.blade.php which is either created manually or automatically depends on livewire version. 
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
